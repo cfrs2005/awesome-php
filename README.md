@@ -1,109 +1,120 @@
-# Awesome PHP [![Build Status](https://api.travis-ci.org/ziadoz/awesome-php.svg?branch=master)](https://travis-ci.org/ziadoz/awesome-php)
+# 超赞的PHP
 
-A curated list of amazingly awesome PHP libraries, resources and shiny things.
+这是一个PHP介绍 类库介绍的综合列表，你可以认为是一个工具集合也可以
 
-## Contributing
-Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONTRIBUTING.md) and [CODE-OF-CONDUCT](https://github.com/ziadoz/awesome-php/blob/master/CODE-OF-CONDUCT.md) for details.
+## 关于
 
-## Table of Contents
-- [Awesome PHP](#awesome-php)
-    - [Dependency Management](#dependency-management)
-    - [Dependency Management Extras](#dependency-management-extras)
-    - [Frameworks](#frameworks)
-    - [Framework Extras](#framework-extras)
-    - [Components](#components)
-    - [Micro Frameworks](#micro-frameworks)
-    - [Micro Framework Extras](#micro-framework-extras)
-    - [Routers](#routers)
-    - [Templating](#templating)
-    - [Static Site Generators](#static-site-generators)
+原英文版本地址:
+
+[awesome-php](https://github.com/ziadoz/awesome-php)
+当然还有python
+
+[awesome-php](https://github.com/vinta/awesome-python)
+
+
+## 贡献
+随便了，原作者的意思 你爱干嘛干嘛,懒的管,这或许就是咱PHP的有的精神了
+
+
+## 目录
+- [超赞的PHP](#超赞的PHP)
+    - [依赖管理](#dependency-management)
+    - [依赖管理扩展](#dependency-management-extras)
+    - [框架](#frameworks)
+    - [框架扩展](#framework-extras)
+    - [组建](#components)
+    - [微型框架](#micro-frameworks)
+    - [微信框架扩展](#micro-framework-extras)
+    - [路由](#routers)
+    - [模板](#templating)
+    - [网站静态生成器](#static-site-generators)
     - [HTTP](#http)
-    - [Middlewares](#middlewares)
+    - [中间件](#middlewares)
     - [URL](#url)
-    - [Email](#email)
-    - [Files](#files)
-    - [Streams](#streams)
-    - [Dependency Injection](#dependency-injection)
-    - [Imagery](#imagery)
-    - [Testing](#testing)
-    - [Continuous Integration](#continuous-integration)
-    - [Documentation](#documentation)
-    - [Security](#security)
-    - [Passwords](#passwords)
-    - [Code Analysis](#code-analysis)
-    - [Architectural](#architectural)
-    - [Debugging and Profiling](#debugging-and-profiling)
-    - [Build Tools](#build-tools)
-    - [Task Runners](#task-runners)
-    - [Navigation](#navigation)
-    - [Asset Management](#asset-management)
-    - [Geolocation](#geolocation)
-    - [Date and Time](#date-and-time)
-    - [Event](#event)
-    - [Logging](#logging)
-    - [E-commerce](#e-commerce)
+    - [邮件](#email)
+    - [文件](#files)
+    - [流操作](#streams)
+    - [依赖注入](#dependency-injection)
+    - [图像](#imagery)
+    - [测试](#testing)
+    - [持续集成](#continuous-integration)
+    - [文档](#documentation)
+    - [加密](#security)
+    - [密码](#passwords)
+    - [代码分析](#code-analysis)
+    - [模式](#architectural)
+    - [调试分析](#debugging-and-profiling)
+    - [构建工具](#build-tools)
+    - [人物流](#task-runners)
+    - [导航](#navigation)
+    - [资源管理](#asset-management)
+    - [地理定位](#geolocation)
+    - [日期与时间](#date-and-time)
+    - [事件](#event)
+    - [日志](#logging)
+    - [电子商务](#e-commerce)
     - [PDF](#pdf)
     - [Office](#office)
-    - [Database](#database)
-    - [Migrations](#migrations)
+    - [数据库](#database)
+    - [脚手架](#migrations)
     - [NoSQL](#nosql)
-    - [Queue](#queue)
-    - [Search](#search)
-    - [Command Line](#command-line)
-    - [Authentication and Authorization](#authentication-and-authorization)
-    - [Markup](#markup)
-    - [Strings](#strings)
-    - [Numbers](#numbers)
-    - [Filtering and Validation](#filtering-and-validation)
+    - [队列](#queue)
+    - [搜索](#search)
+    - [终端](#command-line)
+    - [验证与授权](#authentication-and-authorization)
+    - [标记](#markup)
+    - [字符串](#strings)
+    - [数字](#numbers)
+    - [过滤和验证](#filtering-and-validation)
     - [API](#api)
-    - [Caching](#caching)
-    - [Data Structure and Storage](#data-structure-and-storage)
-    - [Notifications](#notifications)
-    - [Deployment](#deployment)
-    - [Internationalisation and Localisation](#internationalisation-and-localisation)
-    - [Third Party APIs](#third-party-apis)
-    - [Extensions](#extensions)
-    - [Miscellaneous](#miscellaneous)
-- [Software](#software)
-    - [PHP Installation](#php-installation)
-    - [Development Environment](#development-environment)
-    - [Virtual Machines](#virtual-machines)
-    - [Integrated Development Environment](#integrated-development-environment)
-    - [Web Applications](#web-applications)
-    - [Infrastructure](#infrastructure)
-- [Resources](#resources)
-    - [PHP Websites](#php-websites)
-    - [Other Websites](#other-websites)
-    - [PHP Books](#php-books)
-    - [PHP Videos](#php-videos)
-    - [PHP Podcasts](#php-podcasts)
-    - [PHP Reading](#php-reading)
-    - [PHP Internals Reading](#php-internals-reading)
-- [Contributing](#contributing)
+    - [缓存](#caching)
+    - [数据结构化和存储](#data-structure-and-storage)
+    - [通知](#notifications)
+    - [部署](#deployment)
+    - [国际化与本地](#internationalisation-and-localisation)
+    - [第三方API](#third-party-apis)
+    - [扩展](#extensions)
+    - [其他](#miscellaneous)
+- [软件](#software)
+    - [PHP安装](#php-installation)
+    - [开发环境](#development-environment)
+    - [虚拟主机](#virtual-machines)
+    - [集成开发环境](#integrated-development-environment)
+    - [WEB服务](#web-applications)
+    - [基础建设](#infrastructure)
+- [源码](#resources)
+    - [PHP网站](#php-websites)
+    - [其他网站](#other-websites)
+    - [PHP书籍](#php-books)
+    - [PHP视频](#php-videos)
+    - [PHP博客](#php-podcasts)
+    - [PHP阅读](#php-reading)
+    - [PHP源码阅读](#php-internals-reading)
+- [贡献](#contributing)
 
-## Dependency Management
-*Libraries for dependency and package management.*
+## 依赖管理
+*关于类库的包管理.*
 
-* [Composer Installers](https://github.com/composer/installers) - A  multi framework Composer library installer.
-* [Composer](https://getcomposer.org/)/[Packagist](https://packagist.org/) - A package and dependency manager.
-* [Melody](http://melody.sensiolabs.org/) - A tool to build one file Composer scripts.
-* [Pickle](https://github.com/FriendsOfPHP/pickle) - A PHP extension installer.
+* [Composer Installers](https://github.com/composer/installers) - composer安装.
+* [Composer](https://getcomposer.org/)/[Packagist](https://packagist.org/) - composer类库网站.
+* [Melody](http://melody.sensiolabs.org/) - 构建composer脚本包.
+* [Pickle](https://github.com/FriendsOfPHP/pickle) - PHP扩展安装程序.
 
-## Dependency Management Extras
-*Extras related to dependency management.*
+## 依赖管理扩展
+*依赖管理附加功能增强*
 
-* [Composed](https://github.com/joshdifabio/composed) - A library to parse your project's Composer environment at runtime.
-* [Composer Checker](https://github.com/silpion/composer-checker) - A tool to validate Composer configurations.
-* [Composer Merge Plugin](https://github.com/wikimedia/composer-merge-plugin) - A composer plugin to merge several composer.json files.
-* [Composition](https://github.com/bamarni/composition) - A library to check your Composer environment at runtime.
-* [NameSpacer](https://github.com/ralphschindler/Namespacer) - A library to convert from underscores to namespaces.
-* [Patch Installer](https://github.com/goatherd/patch-installer) - A library to install patches using Composer.
-* [Prestissimo](https://github.com/hirak/prestissimo) - A composer plugin which enables parallel install process.
-* [Satis](https://github.com/composer/satis) - A static Composer repository generator.
-* [tooly](https://github.com/tommy-muehle/tooly-composer-script) - A library to manage PHAR files in project using Composer.
-* [Toran Proxy](https://toranproxy.com) - A static Composer repository and proxy.
+* [Composed](https://github.com/joshdifabio/composed) - 一个运行时composer管理功能包
+* [Composer Checker](https://github.com/silpion/composer-checker) - 检查composer配置文件.
+* [Composer Merge Plugin](https://github.com/wikimedia/composer-merge-plugin) - composer 合并配置工具
+* [Composition](https://github.com/bamarni/composition) - 一个composer运行时环境管理.
+* [NameSpacer](https://github.com/ralphschindler/Namespacer) - 转换命名空间.
+* [Patch Installer](https://github.com/goatherd/patch-installer) - 扩展包安装.
+* [Prestissimo](https://github.com/hirak/prestissimo) - composer插件 过程管理.
+* [Satis](https://github.com/composer/satis) - 静态composer生成器.
+* [tooly](https://github.com/tommy-muehle/tooly-composer-script) - 静态composer存储生成器
+* [Toran Proxy](https://toranproxy.com) - 静态Composer存储库和代理。
 
-## Frameworks
+## 框架
 *Web development frameworks.*
 
 * [Aura Framework](http://auraphp.com/framework/) - A framework built from independent components.
