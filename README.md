@@ -7,9 +7,10 @@
 原英文版本地址:
 
 [awesome-php](https://github.com/ziadoz/awesome-php)
+
 当然还有python
 
-[awesome-php](https://github.com/vinta/awesome-python)
+[awesome-python](https://github.com/vinta/awesome-python)
 
 
 ## 贡献
@@ -18,36 +19,36 @@
 
 ## 目录
 - [超赞的PHP](#超赞的PHP)
-    - [依赖管理](#dependency-management)
-    - [依赖管理扩展](#dependency-management-extras)
-    - [框架](#frameworks)
-    - [框架扩展](#framework-extras)
-    - [组建](#components)
-    - [微型框架](#micro-frameworks)
-    - [微信框架扩展](#micro-framework-extras)
-    - [路由](#routers)
-    - [模板](#templating)
-    - [网站静态生成器](#static-site-generators)
+    - [依赖管理](#依赖管理)
+    - [依赖管理扩展](#依赖管理扩展)
+    - [框架](#框架)
+    - [框架扩展](#框架扩展)
+    - [组建](#组建)
+    - [微型框架](#微型框架)
+    - [微型框架扩展](#微型框架扩展)
+    - [路由](#路由)
+    - [模板](#模板)
+    - [网站静态生成器](#网站静态生成器)
     - [HTTP](#http)
-    - [中间件](#middlewares)
+    - [中间件](#中间件)
     - [URL](#url)
     - [邮件](#email)
-    - [文件](#files)
-    - [流操作](#streams)
-    - [依赖注入](#dependency-injection)
-    - [图像](#imagery)
-    - [测试](#testing)
-    - [持续集成](#continuous-integration)
-    - [文档](#documentation)
-    - [加密](#security)
-    - [密码](#passwords)
-    - [代码分析](#code-analysis)
-    - [模式](#architectural)
-    - [调试分析](#debugging-and-profiling)
-    - [构建工具](#build-tools)
-    - [人物流](#task-runners)
-    - [导航](#navigation)
-    - [资源管理](#asset-management)
+    - [文件](#文件)
+    - [流操作](#流操作)
+    - [依赖注入](#依赖注入)
+    - [图像](#图像)
+    - [测试](#测试)
+    - [持续集成](#持续集成)
+    - [文档](#文档)
+    - [加密](#加密)
+    - [密码](#密码)
+    - [代码分析](#代码分析)
+    - [模式](#模式)
+    - [调试分析](#调试分析)
+    - [构建工具](#构建工具)
+    - [人物流](#人物流)
+    - [导航](#导航)
+    - [资源管理](#资源管理)
     - [地理定位](#geolocation)
     - [日期与时间](#date-and-time)
     - [事件](#event)
@@ -60,12 +61,12 @@
     - [NoSQL](#nosql)
     - [队列](#queue)
     - [搜索](#search)
-    - [终端](#command-line)
-    - [验证与授权](#authentication-and-authorization)
-    - [标记](#markup)
-    - [字符串](#strings)
-    - [数字](#numbers)
-    - [过滤和验证](#filtering-and-validation)
+    - [终端](#终端)
+    - [验证与授权](#验证与授权)
+    - [标记](#标记)
+    - [字符串](#字符串)
+    - [数字](#数字)
+    - [过滤和验证](#过滤和验证)
     - [API](#api)
     - [缓存](#caching)
     - [数据结构化和存储](#data-structure-and-storage)
@@ -115,7 +116,7 @@
 * [Toran Proxy](https://toranproxy.com) - 静态Composer存储库和代理。
 
 ## 框架
-*Web development frameworks.*
+*WEB开发工具.*
 
 * [Aura Framework](http://auraphp.com/framework/) - A framework built from independent components.
 * [CakePHP](https://cakephp.org/) - A rapid application development framework (CP).
@@ -128,14 +129,15 @@
 * [Zend Framework 2](https://framework.zend.com) - Another framework comprised of individual components (ZF2).
 * [Ice](https://www.iceframework.org/) - Another simple and fast PHP framework delivered as C-extension.
 
-## Framework Extras
+## 框架扩展
 *Extras related to web development frameworks.*
 
 * [CakePHP CRUD](https://github.com/friendsofcake/crud) - A Rapid Application Development (RAD) plugin for CakePHP.
 * [Knp RAD Bundle](http://rad.knplabs.com/) - A Rapid Application Development (RAD) bundle for Symfony.
 * [Symfony CMF](https://github.com/symfony-cmf/symfony-cmf) - A Content Management Framework to create custom CMS.
 
-## Components
+## 组件
+
 *Standalone components from web development frameworks and development groups.*
 
 * [Aura](http://auraphp.com/) - Independent components, fully decoupled from each other and from any framework.
@@ -145,7 +147,7 @@
 * [Symfony Components](http://symfony.com/doc/master/components/index.html) - The components that make Symfony.
 * [Zend Framework 2 Components](https://packages.zendframework.com/) - The components that make Zend Framework.
 
-## Micro Frameworks
+## 微型框架
 *Micro frameworks and routers.*
 
 * [Bullet PHP](http://bulletphp.com/) - A micro framework for building REST APIs.
@@ -155,7 +157,8 @@
 * [Silex](http://silex.sensiolabs.org/) - A micro framework built around Symfony components.
 * [Slim](https://www.slimframework.com/) - Another simple micro framework.
 
-## Micro Framework Extras
+## 微型框架扩展
+
 *Extras related to micro frameworks and routers.*
 
 * [Silex Skeleton](https://github.com/silexphp/Silex-Skeleton) - A project skeleton for Silex.
@@ -163,7 +166,7 @@
 * [Slim Skeleton](https://github.com/slimphp/Slim-Skeleton) - A skeleton for Slim.
 * [Slim View](https://github.com/slimphp/Slim-Views) - A collection of custom views for Slim.
 
-## Routers
+## 路由
 *Libraries for handling application routing.*
 
 * [Aura.Router](https://github.com/auraphp/Aura.Router) - A full-featured routing library.
